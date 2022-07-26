@@ -71,8 +71,8 @@ Resources:
     Type: "AWS::EC2::LaunchTemplate"
     Properties:
       LaunchTemplateData:
-        ImageId: ami-01cc34ab2709337aa
-        InstanceType: t3.medium
+        ImageId: ami-0cff7528ff583bf9a
+        InstanceType: t3a.medium
         KeyName: !Ref KeyPairName
         SecurityGroupIds:
           - !GetAtt PetclinicDemoSG.GroupId
